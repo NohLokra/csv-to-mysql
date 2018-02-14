@@ -1,0 +1,33 @@
+{
+  "name": "csv-to-mysql",
+  "version": "1.0.0",
+  "description": "A small tool that will convert your CSV files with headers to a mysql table with some smart field type analysis\"",
+  "main": "csv-to-mysql.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zozoleclown/csv-to-mysql.git"
+  },
+  "keywords": [
+    "csv",
+    "tool",
+    "mysql",
+    "cvs2mysql",
+    "converter",
+    "conversion",
+    "database"
+  ],
+  "author": "Zozoleclown",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zozoleclown/csv-to-mysql/issues"
+  },
+  "homepage": "https://github.com/Zozoleclown/csv-to-mysql#readme",
+  "dependencies": {
+    "dotenv": "^5.0.0",
+    "fast-csv": "^2.4.1",
+    "mysql": "^2.15.0"
+  }
+}
