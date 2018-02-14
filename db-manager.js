@@ -97,10 +97,6 @@ class DbManager {
         });
     }
 
-    normalizeFieldName(fieldName) {
-        return fieldName.replace(/[A-Z]{1}[^A-Z]+/g, "_$&").replace(/__| /g, "_").replace(/^_/g, "").toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, "")
-    }
-
     createTableStructure(tableName, fields) {
         let request = "CREATE TABLE IF NOT EXISTS " + tableName + " (";
 
